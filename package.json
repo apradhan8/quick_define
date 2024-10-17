@@ -1,0 +1,18 @@
+{
+  "name": "aaditya_pradhan_inm420sbb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "lite-server"
+  },
+  "keywords": [],
+  "author": "Aaditya Pradhan",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  },
+  "dependencies": {
+    "lucide": "^0.453.0"
+  }
+}

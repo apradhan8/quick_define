@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quick-Define</title>
+    <link href="css/style.css" rel="stylesheet" />
+    
+</head>
+<body>
+    <div class="wrapper">
+        <h1>Quick-Define</h1>
+        <p class="tagline">Words made simple, definitions in a snap!</p>
+        <div class="container">
+            <div class="search_form">
+                <input type="text" id="query" placeholder="Search" />
+                <button id="search"><i data-lucide="search"></i></button>
+            </div>
+            <div class="result-card" id="result">             
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+    <script>
+        lucide.createIcons();
+      </script>
+</body>
+</html>
